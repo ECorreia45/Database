@@ -1,8 +1,16 @@
 # Database
-Simple PHP PDO Database Class with built-in query function
+Simple PHP PDO Database Class with built-in query function 
 
+
+
+## Configuration
+
+Visit the configuration file to set the name of the database, username, password and Host;
+
+## Start
 
 Start by getting an instance of the database then call query();
+
 ```
 $db = Database::getInstance();
 
